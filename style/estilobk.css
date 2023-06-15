@@ -1,0 +1,196 @@
+/*Index*/
+.Sandbox_Boton{
+    height:35px;
+    width:130px;
+    background: rgb(244,94,107);
+    background: linear-gradient(90deg, rgba(244,94,107,1) 0%, rgba(208,71,78,1) 45%, rgba(208,71,78,1) 58%, rgba(208,71,78,1) 100%);border-radius:12%;
+    margin-left: 100px;   
+    color:black; 
+    font-weight: bold;
+}
+.Objetivo_Boton{
+    height:35px;
+    width:130px;
+    background: rgb(236,73,87);
+    background: linear-gradient(90deg, rgba(236,73,87,1) 0%, rgba(236,73,87,1) 71%, rgba(208,71,78,1) 100%);
+    border-radius:12%;
+    margin-left: 100px;  
+    margin-top: 10px;    
+    color:black; 
+    font-weight: bold;
+}
+.LogoDav_Index{
+    width: 50%;
+}
+.Bienvenido{  
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/*Sandbox*/
+.Imagen_PC_Sandbox{
+    position:absolute;
+    width: 60%;
+    left: -150px;
+    top: 200px;                  
+} 
+.Titulo_Sandbox{      
+    top: 250px; 
+    font-size: 30px;
+}
+.Contenedor_Sandbox {  
+    position: relative;
+    width: 4%;
+    left: 620px;
+    top: 150px;               
+}
+.Icono1_Sandbox{  
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+.Texto1_Sandbox{
+    opacity: 0;
+    transition: 3s linear;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 500px;
+    height:50px;
+    transform: translate(50px, -20px);
+    text-align: justify;
+    border: 1px dashed black;    
+    border-bottom-right-radius:  20px 20px;
+}     
+.Contenedor_Sandbox:hover  .Texto1_Sandbox{
+    opacity: 1;
+}  
+.Contenedor1_Sandbox{
+    position: relative;
+    width: 4%;
+    left: 620px;
+    top: 160px;             
+}
+  .Icono2_Sandbox{ 
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+ .Texto2_Sandbox{
+    opacity: 0;
+    transition: 3s linear;     
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 500px;
+    height:50px;
+    transform: translate(50px, -20px);
+    text-align: justify;
+    border: 1px dashed black;
+    border-bottom-right-radius:  20px 20px;
+}   
+.Contenedor1_Sandbox:hover  .Texto2_Sandbox{
+    opacity: 1;
+}  
+.Contenedor2_Sandbox {
+    position: relative;
+    width: 4%;
+    left: 620px;
+    top: 170px;             
+}
+  .Icono3_Sandbox{ 
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+ .Texto3_Sandbox{
+    opacity: 0;
+    transition: 3s linear;     
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 500px;
+    height:30px;
+    transform: translate(50px, -20px);
+    text-align: justify;
+    border: 1px dashed black;
+    border-bottom-right-radius:  20px 20px;
+}        
+.Contenedor2_Sandbox:hover  .Texto3_Sandbox{
+    opacity: 1;
+}  
+.Volver{
+    position:absolute;
+    background-color: #CFCBCB;
+    border-radius:15%;
+    margin-left: 100px;   
+    top: 550px;
+    left:-10px;
+    width:60px;   
+}
+  
+/*Objetivo*/
+.Titulo_Objetivo{      
+    top: 250px; 
+    font-size: 30px;
+}
+
+.Imagen_Ipad{
+    position:absolute;
+    width: 40%;
+    left: 700px;
+    top: 200px;       
+    image-rendering: pixelated;        
+} 
+.Contenedor_Objetivo {  
+    position: relative;
+    width: 3%;
+    left: 100px;
+    top: 150px;               
+}
+.Icono_Objetivo{  
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: auto; 
+    cursor: pointer;
+}
+.Texto_Objetivo{
+    display:none;
+    transition: 3s linear;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    width: 500px;
+    height:120px;
+    transform: translate(50px, -20px);
+    text-align: justify;
+    border: 1px dashed black;   
+    box-shadow: 5px 10px grey; 
+    border-bottom-right-radius:  20px 20px;  
+}  
+.Mostrar_Objetivo{
+    display:block;
+}  
+.Boton_Objetivo{
+    position:absolute;
+    cursor: pointer;
+    opacity: 0;
+    top: 10px; 
+    width: 30px;  
+    height: 30px; 
+}   
+
+
+
+
+
+

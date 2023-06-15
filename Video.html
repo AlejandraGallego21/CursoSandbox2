@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UFT-8"/>
+		<title>Video</title>
+    <link rel="stylesheet" href="style/estilo.css" />
+  </head>
+<body background="imagenes/NM LeitmotivDaviviendaFondoBlanco-26.png">    
+    <center class="Modulo_Servicios" >
+      <h1> Video
+      </h1>
+    </center>
+<div class="Video">
+    <video id="video" src="imagenes/Videos.mp4" width="900" height="600" autoplay loop muted>
+      <source src="imagenes/Videos.webm" type="video/webm">
+      <source src="imagenes/Videos.mp4" type="video/ogg">
+      Tu navegador no admite la reproducción de videos.
+    </video>
+</div>
+
+<button onclick="pausarVideo()">Pausar</button>
+<button onclick="adelantarVideo()">Adelantar 10 segundos</button>
+<button onclick="playVideo()">Play</button>
+<button onclick="atrasarVideo()">Atrasar 10 segundos</button>
+
+    <script src="scripts/JS_Video.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+	<head>
+		<meta charset="UFT-8"/>
+		<title>Diseno</title>
+    <link rel="stylesheet" href="style/estilo.css" />
+<html>
+
+<body background="imagenes/NM LeitmotivDaviviendaFondoBlanco-26.png">
+    
+    <center class="Titulo_Diseno" >
+        <h1> Dise&ntildeo
+        </h1>
+    </center> 
+    <div class="Contenedor_Diseno">
+        <img src="imagenes/Diseno.png" alt= "Davivienda" class="Imagen_Diseno">
+        
+    </div>
+
+    <div class="tooltip">1
+        <span class="tooltiptext">De forma local y a través de la URL dependiendo el ambiente, se realiza la conexión al balanceador
+            por medio de Netskope, por el puerto 443, adicionalmente se configura el certificado autofirmado.
+        </span>
+      </div>
+	
+      
+    <div class="tooltip2">2
+        <span class="tooltiptext2">El balanceador cuenta con dos endpoints (Backend y Frontend)
+        </span>
+      </div>
+	<div> 
+
+        <div class="tooltip3">3
+            <span class="tooltiptext3">Para llegar al frontend se utiliza un grupo de instancias administradas apoyado de 
+                un template. Las instancias se crean basadas en una máquina base.
+            </span>
+          </div>
+        <div> 
+
+
+        <div class="tooltip4">4
+              <span class="tooltiptext4">La máquina base internamente tiene un crontab que apunta a un fichero (Sync.sh)
+                permitiendo cagar información del Bucket (cada minuto)
+              </span>
+            </div>
+        <div> 
+
+        <div class="tooltip5">5
+            <span class="tooltiptext5">Dentro del buckket se encuentra el frontend, cada minuto se valida si hay información
+                en el buckket, para luego sincronizar la máquina.
+            </span>
+            </div>
+        <div> 
+
+            <div class="tooltip6">6
+                <span class="tooltiptext6">Dentro de Gitlab se encuentra el código fuente y dependiendo la rama hace una 
+                    construcción con gitlba CI/DI, dejando el compilado (.dis) en el bucket de Cloud Storage. 
+                </span>
+                </div>
+            <div> 
+
+                <div class="tooltip7">7
+                    <span class="tooltiptext7">El NGNEX es el encargado de correr el código fuente, compilarlo para ponerlo en el 
+                        bucket.
+                    </span>
+                    </div>
+                <div> 
+
+                    <div class="tooltip8">8
+                        <span class="tooltiptext8">El Backend se encuentra en un clouster de Kubernet, compuesto por un microservicio
+                            propio de Sandbox (Orquestador).
+                        </span>
+                        </div>
+                    <div> 
+
+                        
+                    <div class="tooltip9">9
+                        <span class="tooltiptext9">El Backend se encuentra en un clouster de Kubernet, compuesto por un microservicio
+                            propio de Sandbox (Orquestador).
+                        </span>
+                        </div>
+                    <div> 
+
+    <div class="Contenedor_Conexiones">
+        <button class="Continuar" onclick="location.href='Conexiones.html'" >Continuar</button>
+    </div>
+
+        <button class="Volver" onclick="location.href='index.html'">Volver</button> 
+    </div>
+    <script src="scripts/JS_Diseno.js"></script>
+</body>
+</html>

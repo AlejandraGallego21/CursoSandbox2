@@ -315,7 +315,7 @@
     position: relative;
     display: inline-block;
     top: -440px;
-    margin-left: 240px;  
+    margin-left: 220px;  
     text-align: justify;
     border: 1px solid black;
     border-radius:  50% ;
@@ -367,7 +367,7 @@
     position: relative;
     display: inline-block;
     top: -400px;
-    margin-left: 290px;  
+    margin-left: 250px;  
     text-align: justify;
     border: 1px solid black;
     border-radius:  50% ;
@@ -611,7 +611,7 @@
 }
 .tooltip7 .tooltiptext7 {
   visibility: hidden;
-  width: 450px;
+  width: 350px;
   height: 30px;
   background: rgb(128,92,98);
   background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
@@ -701,7 +701,7 @@
 }
 .tooltip9 .tooltiptext9 {
   visibility: hidden;
-  width: 450px;
+  width: 330px;
   height: 30px;
   background: rgb(128,92,98);
   background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
@@ -747,7 +747,7 @@
 }
 .tooltip10 .tooltiptext10 {
   visibility: hidden;
-  width: 450px;
+  width: 350px;
   height: 30px;
   background: rgb(128,92,98);
   background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
@@ -1285,7 +1285,7 @@ align-items: center;
       text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
-      left: 40px;
+      left: -20px;
     }
     .Circulo2 .Circulo2_Texto::after {
       content: "";
@@ -1332,13 +1332,13 @@ align-items: center;
       padding: 2px 0;
       position: absolute;
       z-index: 1;
-      margin-left: -80px;
+      margin-left: -100px;
       opacity: 0;
       transition: opacity 3s;
       text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
-      left: 40px;
+      left: -0px;
     }
     .Circulo0 .Circulo0_Texto::after {
       content: "";
@@ -1391,7 +1391,7 @@ align-items: center;
       text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
-      left: 40px;
+      left: -10px;
     }
     .Circulo00 .Circulo00_Texto::after {
       content: "";
@@ -1467,13 +1467,13 @@ align-items: center;
       border-radius:  50% ;
       height:20px;
       width:20px;
-      text-align: right;
+      text-align: justify;
       border: 1.5px dashed rgb(250, 6, 6);
     }
     .Circulo3 .Circulo3_Texto {
       visibility: hidden;
-      width: 100px;
-      height: 30px;
+      width: 200px;
+      height: 20px;
       background: rgb(128,92,98);
       background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
       color: black;
@@ -1484,10 +1484,10 @@ align-items: center;
       margin-left: -80px;
       opacity: 0;
       transition: opacity 3s;
-      text-align: right;
+      text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
-      left: 40px;
+      left: -10px;
     }
     .Circulo3 .Circulo3_Texto::after {
       content: "";
@@ -1563,8 +1563,8 @@ align-items: center;
     }
     .Circulo4 .Circulo4_Texto {
       visibility: hidden;
-      width: 100px;
-      height: 30px;
+      width: 200px;
+      height: 20px;
       background: rgb(128,92,98);
       background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
       color: black;
@@ -1575,10 +1575,10 @@ align-items: center;
       margin-left: -80px;
       opacity: 0;
       transition: opacity 3s;
-      text-align: right;
+      text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
-      left: 40px;
+      left: -15px;
     }
     .Circulo4 .Circulo4_Texto::after {
       content: "";
@@ -1656,8 +1656,8 @@ align-items: center;
     }
     .Circulo5 .Circulo5_Texto {
       visibility: hidden;
-      width: 100px;
-      height: 30px;
+      width: 200px;
+      height: 20px;
       background: rgb(128,92,98);
       background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
       color: black;
@@ -1668,10 +1668,10 @@ align-items: center;
       margin-left: -80px;
       opacity: 0;
       transition: opacity 3s;
-      text-align: right;
+      text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
-      left: 40px;
+      left: -10px;
     }
     .Circulo5 .Circulo5_Texto::after {
       content: "";
@@ -1829,6 +1829,32 @@ cursor: pointer;
   box-shadow: 0 0 10px #dd8a7f;
 
 }
+
+
+.highlight-button1 {
+  background-color: #CFCBCB;
+  color: #000000;
+  border-radius:15%;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  position:absolute;
+  margin-left: 654px;  
+  top: 220px;
+
+width:110px; 
+cursor: pointer; 
+  
+}
+
+.highlight-button1:hover {
+  background-color: #fa0d0d;
+  color: #FFFFFF;
+  box-shadow: 0 0 10px #dd8a7f;
+
+}
+
 
 
 .Video {

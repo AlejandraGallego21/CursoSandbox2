@@ -1471,6 +1471,7 @@ z-index: 1
 
 
 
+
 .highlight-button {
   background-color: #CFCBCB;
   color: #000000;
@@ -1480,8 +1481,8 @@ z-index: 1
   font-weight: bold;
   transition: background-color 0.3s;
   position:absolute;
-  margin-left: 950px;  
-  top: 570px;
+  margin-left: 650px;  
+  top: 180px;
 
 width:110px; 
 cursor: pointer; 

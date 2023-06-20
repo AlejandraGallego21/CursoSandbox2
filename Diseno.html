@@ -21,7 +21,7 @@
 
     <div class="tooltip">1
         <span class="tooltiptext">De forma local y a través de la URL dependiendo el ambiente, se realiza la conexión al balanceador
-            por medio de Netskope, por el puerto 443, adicionalmente se configura el certificado autofirmado.
+            por medio de Netskope por el puerto 443, adicionalmente se configura el certificado autofirmado.
         </span>
       </div>
 	
@@ -56,14 +56,13 @@
 
             <div class="tooltip6">6
                 <span class="tooltiptext6">Dentro de Gitlab se encuentra el código fuente y dependiendo la rama hace una 
-                    construcción con gitlba CI/DI, dejando el compilado (.dis) en el bucket de Cloud Storage. 
+                    construcción de un pipleine con gitlalb CI/DI, dejando el compilado (.dis) en el bucket de Cloud Storage. 
                 </span>
                 </div>
             <div> 
 
                 <div class="tooltip7">7
-                    <span class="tooltiptext7">El NGNEX es el encargado de correr el código fuente, compilarlo para ponerlo en el 
-                        bucket.
+                    <span class="tooltiptext7">El NGNEX es el encargado de correr el código fuente.
                     </span>
                     </div>
                 <div> 
@@ -77,12 +76,42 @@
 
                         
                     <div class="tooltip9">9
-                        <span class="tooltiptext9">El Backend se encuentra en un clouster de Kubernet, compuesto por un microservicio
-                            propio de Sandbox (Orquestador).
+                        <span class="tooltiptext9">El orqustador se basa en dos pods independientes.
                         </span>
                         </div>
                     <div> 
 
+                        <div class="tooltip10">10
+                            <span class="tooltiptext10">El orqustador se basa en dos pods independientes.
+                            </span>
+                            </div>
+                        <div> 
+
+                            <div class="tooltip11">11
+                                <span class="tooltiptext11">El ESP hace la comunicación con Cloud Endpoint y el NGINEX hace la comunicación desde el balanaceador de carga hasta el orquestador.
+                                </span>
+                                </div>
+                            <div> 
+
+                                <div class="tooltip12">12
+                                    <span class="tooltiptext12"> El NEG  de forma automatica crea objetos para cada una de las zonas de disponiblidad que tnega el clouster. Objetos que se ponene como backend dentro del balanceador.
+                                    </span>
+                                    </div>
+                                <div>
+
+                                    
+                                <div class="tooltip13">13
+                                    <span class="tooltiptext13"> El Orquestador tiene una configuración interna , permitiendo contectarse a través de los clouds endpoints a cada uno de los microservicios.
+                                    </span>
+                                    </div>
+                                <div>
+
+                                          
+                                <div class="tooltip14">14
+                                    <span class="tooltiptext14">Los microservicios se despliegan dentro del clouster direcatmente de gitlab. Haciendo un push a la rama se corre el pipeline de forma automatica.
+                                    </span>
+                                    </div>
+                                <div>
     <div class="Contenedor_Conexiones">
         <button class="Continuar" onclick="location.href='Conexiones.html'" >Continuar</button>
     </div>

@@ -1270,8 +1270,8 @@ align-items: center;
     }
     .Circulo2 .Circulo2_Texto {
       visibility: hidden;
-      width: 100px;
-      height: 30px;
+      width: 210px;
+      height: 25px;
       background: rgb(128,92,98);
       background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
       color: black;
@@ -1282,7 +1282,7 @@ align-items: center;
       margin-left: -80px;
       opacity: 0;
       transition: opacity 3s;
-      text-align: right;
+      text-align: justify;
       font: bold 90% monospace;
       bottom: 150%;
       left: 40px;
@@ -1303,6 +1303,111 @@ align-items: center;
       opacity: 1;
     }
 
+
+
+    /*editar*/
+
+
+    .Circulo0 {
+      color:black; 
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      top: -484px;
+      margin-left: 1189px;  
+      border-radius:  50% ;
+      height:20px;
+      width:20px;
+      text-align: right;
+      border: 1.5px dashed rgb(250, 6, 6);
+    }
+    .Circulo0 .Circulo0_Texto {
+      visibility: hidden;
+      width: 210px;
+      height: 25px;
+      background: rgb(128,92,98);
+      background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
+      color: black;
+      border-radius: 6px;
+      padding: 2px 0;
+      position: absolute;
+      z-index: 1;
+      margin-left: -80px;
+      opacity: 0;
+      transition: opacity 3s;
+      text-align: justify;
+      font: bold 90% monospace;
+      bottom: 150%;
+      left: 40px;
+    }
+    .Circulo0 .Circulo0_Texto::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    }
+    
+    .Circulo0:hover .Circulo0_Texto {
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+
+    /*eliminar*/
+
+
+    .Circulo00 {
+      color:black; 
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      top: -510px;
+      margin-left: 1162px;  
+      border-radius:  50% ;
+      height:20px;
+      width:20px;
+      text-align: right;
+      border: 1.5px dashed rgb(250, 6, 6);
+    }
+    .Circulo00 .Circulo00_Texto {
+      visibility: hidden;
+      width: 210px;
+      height: 25px;
+      background: rgb(128,92,98);
+      background: linear-gradient(100deg, rgba(128,92,98,0.3) 0%, rgba(168,15,15,0.3) 100%);
+      color: black;
+      border-radius: 6px;
+      padding: 2px 0;
+      position: absolute;
+      z-index: 1;
+      margin-left: -80px;
+      opacity: 0;
+      transition: opacity 3s;
+      text-align: justify;
+      font: bold 90% monospace;
+      bottom: 150%;
+      left: 40px;
+    }
+    .Circulo00 .Circulo00_Texto::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    }
+    
+    .Circulo00:hover .Circulo00_Texto {
+      visibility: visible;
+      opacity: 1;
+    }
     .Boton_Servicio{
 
   position:relative;
